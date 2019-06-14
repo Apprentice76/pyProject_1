@@ -120,12 +120,12 @@ def euro_roulette(bet, choice):
       print("You lose $" + str(bet) + "!")
       return -bet
 
-#Call your game of chance functions here
+#Remove/Add comment as per requirement
 #money += cointoss("Heads",60)
 #money += cho_han("Even", 60)
 #money += card_hipick_v2(60)
 #money += euro_roulette(20,"Even")
-money += euro_roulette(20,5)
+#money += euro_roulette(20,5)
 
 if money >= 0:
   print("You are left with: $" + str(money))
